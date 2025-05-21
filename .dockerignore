@@ -1,0 +1,32 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.py[cod]
+*$py.class
+.pytest_cache
+.coverage
+htmlcov/
+.ruff_cache
+
+# Entornos virtuales
+.env
+.venv
+venv/
+ENV/
+
+# IDEs
+.idea
+.vscode
+*.swp
+*.swo
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db 

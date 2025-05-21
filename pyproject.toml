@@ -1,0 +1,24 @@
+[project]
+name = "file-mal-scan"
+version = "0.1.0"
+description = "File Malware Scanner using VirusTotal"
+authors = [
+    {name = "Wilber Alegria", email = "wilber.alegria99@gmail.com"},
+]
+dependencies = [
+    "fastapi",
+    "sqlmodel",
+    "alembic",
+    "asyncpg",
+    "python-jose[cryptography]",
+    "passlib[bcrypt]",
+    "pydantic[email]",
+    "httpx>=0.28.1",
+    "pydantic-settings>=2.9.1",
+    "uvicorn>=0.34.2",
+    "python-multipart==0.0.20",
+]
+requires-python = ">=3.11"
+
+[tool.ruff]
+src = ["src"]

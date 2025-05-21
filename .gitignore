@@ -1,0 +1,20 @@
+# python
+__pycache__
+app.egg-info
+.python-version
+*.pyc
+.ruff_cache
+.pytest_cache
+
+# venv
+.venv/
+venv/
+
+# vscode
+.vscode/
+
+# idea
+.idea/
+
+# environment variables
+.env

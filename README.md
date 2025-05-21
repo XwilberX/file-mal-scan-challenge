@@ -66,7 +66,7 @@ docker compose down
 
 La API estará disponible en: `http://localhost:8080`
 La documentación Swagger: `http://localhost:8080/docs`
-PgAdmin: `http://localhost:5050`
+
 
 ## Guía de uso de la API
 
